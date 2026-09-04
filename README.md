@@ -49,6 +49,8 @@ Differential Abundance (ANCOM-BC2): Should NEVER use rarefied data. The R script
 
 Alpha and Beta Diversity: MUST use rarefied data. For these ecological analyses, the matrix must be leveled by the sample with the lowest viable number of reads (rarefaction_depth = 816500, based on the CTL-2 sample) to ensure a fair comparison without excluding any samples.
 
+For this data, the facility (ByMyCell) already removes the primers used, so there is no need for further removal.
+
 ### Expected Directory structure
 ```
 raw_data/
